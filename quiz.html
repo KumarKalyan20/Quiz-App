@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Quiz App</title>
+    <link rel="stylesheet" href="quiz.css">
+</head>
+<body>
+    
+    <div class="quiz-container">
+        <h2 id="question">Question Text</h2>
+        
+        <div class="answers">
+          <button class="answer-btn" onclick="checkAnswer(0)"></button>
+          <button class="answer-btn" onclick="checkAnswer(1)"></button>
+          <button class="answer-btn" onclick="checkAnswer(2)"></button>
+          <button class="answer-btn" onclick="checkAnswer(3)"></button>
+        </div>
+
+        <div id="score"></div>
+
+        <button id="next-btn" onclick="nextQuestion()">Next</button>
+        <button id="restart-btn" style="display: none;" onclick="restartQuiz()">Restart</button>
+    </div>
+
+    <script src="quiz.js"></script>
+   <script src="https://cdn.jsdelivr.net/..."></script>
+   <script src="https://cdnjs.cloudflare.com/..."></script>
+
+</body>
+</html>
